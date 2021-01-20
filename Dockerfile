@@ -1,4 +1,4 @@
-ARG BASE_CONTAINER=jupyter/base-notebook
+ARG BASE_CONTAINER=jupyter/minimal-notebook
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Christian Wustrau <christian.wustrau@ovgu.de>"
